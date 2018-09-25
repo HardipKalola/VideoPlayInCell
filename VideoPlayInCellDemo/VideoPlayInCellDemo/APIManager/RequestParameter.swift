@@ -12,7 +12,9 @@ class RequestParameter: NSObject {
     static var instance: RequestParameter!
     
 //    var objUser : UserData! = nil
-    let vDeviceToken = UserDefaults.standard[kDeviceToken] as! String
+//    let vDeviceToken = UserDefaults.standard[kDeviceToken] as! String
+
+    let vDeviceToken = ""
     let eDeviceType = "1"
     
     // SHARED INSTANCE

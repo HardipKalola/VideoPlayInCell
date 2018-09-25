@@ -6,7 +6,8 @@ import UIKit
 import Moya
 import SwiftyJSON
 
-
+let kSecret = "baseCode@secret"
+let kPrivateKey = "Hg1dhgKS1A1MT0AI5Pf5ydf7r6vlwgjUfa9s"
 
 private extension String {
     var URLEscapedString: String {
@@ -145,13 +146,15 @@ extension SOAPI : TargetType {
         let nonce = 6.randomString
         let timestamp = self.GetCurrentTimeStamp()
         let token = self.createHashedTokenString(timeStemp: timestamp, randomStr: nonce)
-//        var authKey = UserDefaults.standard[kAuthKey] as! String
         var authKey = ""
-        if (UserDefaults.standard.value(forKey: kAuthKey) == nil){
+        if (UserDefaults.standard.value(forKey: "kAuthKey") == nil){
             authKey = ""
         }else{
-            authKey = UserDefaults.standard[kAuthKey] as! String
+            authKey = UserDefaults.standard.value(forKey: "kAuthKey") as! String
         }
+        
+//        var authKey = ""
+       
 
         return ["Content-Type":"application/x-www-form-urlencoded",
                 "lang":"en",
@@ -197,7 +200,7 @@ extension SOAPI {
         
         str = str.appending("|")
         str = str.appending(kSecret)
-        str = str.hmac(algorithm: .SHA256, key:kPrivateKey)
+//        str = str.hmac(algorithm: .SHA256, key:kPrivateKey)
         return str
     }
 }
@@ -218,7 +221,7 @@ extension Int{
         return randomString as String
     }
 }
-
+/*
 extension String {
     
     func hmac(algorithm: CryptoAlgorithm, key: String) -> String {
@@ -277,3 +280,4 @@ enum CryptoAlgorithm {
         return Int(result)
     }
 }
+*/

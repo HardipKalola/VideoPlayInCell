@@ -12,6 +12,24 @@
 		30E54FD9215A438D003374D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E54FD7215A438D003374D4 /* Main.storyboard */; };
 		30E54FDB215A438D003374D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E54FDA215A438D003374D4 /* Assets.xcassets */; };
 		30E54FDE215A438D003374D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E54FDC215A438D003374D4 /* LaunchScreen.storyboard */; };
+		30E54FE6215A439E003374D4 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FE5215A439E003374D4 /* PlayerView.swift */; };
+		30E54FE8215A43BE003374D4 /* VideoPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FE7215A43BE003374D4 /* VideoPlayerCell.swift */; };
+		30E54FF4215A51FB003374D4 /* SOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FF2215A51FB003374D4 /* SOService.swift */; };
+		30E54FF5215A51FB003374D4 /* SOAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FF3215A51FB003374D4 /* SOAPI.swift */; };
+		30E54FF7215A53D7003374D4 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FF6215A53D7003374D4 /* BaseModel.swift */; };
+		30E54FF9215A53F3003374D4 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FF8215A53F3003374D4 /* LoginData.swift */; };
+		30E54FFB215A5405003374D4 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FFA215A5405003374D4 /* ResponseData.swift */; };
+		30E54FFD215A57C9003374D4 /* SyncData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FFC215A57C9003374D4 /* SyncData.swift */; };
+		30E55008215A5821003374D4 /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FFE215A581E003374D4 /* GameSetting.swift */; };
+		30E55009215A5821003374D4 /* StoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E54FFF215A581E003374D4 /* StoryContent.swift */; };
+		30E5500A215A5821003374D4 /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55000215A581F003374D4 /* WheelOfFortune.swift */; };
+		30E5500B215A5821003374D4 /* QuestionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55001215A581F003374D4 /* QuestionCategory.swift */; };
+		30E5500C215A5821003374D4 /* ProfileUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55002215A581F003374D4 /* ProfileUrl.swift */; };
+		30E5500D215A5821003374D4 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55003215A581F003374D4 /* UserSetting.swift */; };
+		30E5500E215A5821003374D4 /* RequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55004215A5820003374D4 /* RequestParameter.swift */; };
+		30E55010215A5821003374D4 /* SyncLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55006215A5820003374D4 /* SyncLog.swift */; };
+		30E55011215A5821003374D4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E55007215A5821003374D4 /* Question.swift */; };
+		FDC0CBD6E2E1D2F078E9DCD1 /* Pods_VideoPlayInCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDC4D2309CE106CFF597D90 /* Pods_VideoPlayInCellDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,26 @@
 		30E54FDA215A438D003374D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E54FDD215A438D003374D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E54FDF215A438D003374D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E54FE5215A439E003374D4 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		30E54FE7215A43BE003374D4 /* VideoPlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerCell.swift; sourceTree = "<group>"; };
+		30E54FF2215A51FB003374D4 /* SOService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOService.swift; sourceTree = "<group>"; };
+		30E54FF3215A51FB003374D4 /* SOAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOAPI.swift; sourceTree = "<group>"; };
+		30E54FF6215A53D7003374D4 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		30E54FF8215A53F3003374D4 /* LoginData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		30E54FFA215A5405003374D4 /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		30E54FFC215A57C9003374D4 /* SyncData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncData.swift; sourceTree = "<group>"; };
+		30E54FFE215A581E003374D4 /* GameSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
+		30E54FFF215A581E003374D4 /* StoryContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryContent.swift; sourceTree = "<group>"; };
+		30E55000215A581F003374D4 /* WheelOfFortune.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelOfFortune.swift; sourceTree = "<group>"; };
+		30E55001215A581F003374D4 /* QuestionCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCategory.swift; sourceTree = "<group>"; };
+		30E55002215A581F003374D4 /* ProfileUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUrl.swift; sourceTree = "<group>"; };
+		30E55003215A581F003374D4 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		30E55004215A5820003374D4 /* RequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParameter.swift; sourceTree = "<group>"; };
+		30E55006215A5820003374D4 /* SyncLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncLog.swift; sourceTree = "<group>"; };
+		30E55007215A5821003374D4 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		397B61D37C3E10948535999F /* Pods-VideoPlayInCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayInCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoPlayInCellDemo/Pods-VideoPlayInCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7EDC4D2309CE106CFF597D90 /* Pods_VideoPlayInCellDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayInCellDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF466C1BE0F9B9911ACCF1D5 /* Pods-VideoPlayInCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayInCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoPlayInCellDemo/Pods-VideoPlayInCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC0CBD6E2E1D2F078E9DCD1 /* Pods_VideoPlayInCellDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,8 @@
 			children = (
 				30E54FD2215A438D003374D4 /* VideoPlayInCellDemo */,
 				30E54FD1215A438D003374D4 /* Products */,
+				EE8134F23A07E3C62E4F63D7 /* Pods */,
+				EAB4F20965FADA43C4231C43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +97,54 @@
 			children = (
 				30E54FD3215A438D003374D4 /* AppDelegate.swift */,
 				30E54FD5215A438D003374D4 /* ViewController.swift */,
+				30E54FE5215A439E003374D4 /* PlayerView.swift */,
+				30E54FE7215A43BE003374D4 /* VideoPlayerCell.swift */,
+				30E54FED215A4A9E003374D4 /* APIManager */,
 				30E54FD7215A438D003374D4 /* Main.storyboard */,
 				30E54FDA215A438D003374D4 /* Assets.xcassets */,
 				30E54FDC215A438D003374D4 /* LaunchScreen.storyboard */,
 				30E54FDF215A438D003374D4 /* Info.plist */,
 			);
 			path = VideoPlayInCellDemo;
+			sourceTree = "<group>";
+		};
+		30E54FED215A4A9E003374D4 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				30E54FFA215A5405003374D4 /* ResponseData.swift */,
+				30E54FF6215A53D7003374D4 /* BaseModel.swift */,
+				30E54FFE215A581E003374D4 /* GameSetting.swift */,
+				30E55002215A581F003374D4 /* ProfileUrl.swift */,
+				30E55007215A5821003374D4 /* Question.swift */,
+				30E55001215A581F003374D4 /* QuestionCategory.swift */,
+				30E55004215A5820003374D4 /* RequestParameter.swift */,
+				30E54FFF215A581E003374D4 /* StoryContent.swift */,
+				30E55006215A5820003374D4 /* SyncLog.swift */,
+				30E55003215A581F003374D4 /* UserSetting.swift */,
+				30E55000215A581F003374D4 /* WheelOfFortune.swift */,
+				30E54FF8215A53F3003374D4 /* LoginData.swift */,
+				30E54FFC215A57C9003374D4 /* SyncData.swift */,
+				30E54FF3215A51FB003374D4 /* SOAPI.swift */,
+				30E54FF2215A51FB003374D4 /* SOService.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		EAB4F20965FADA43C4231C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EDC4D2309CE106CFF597D90 /* Pods_VideoPlayInCellDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8134F23A07E3C62E4F63D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF466C1BE0F9B9911ACCF1D5 /* Pods-VideoPlayInCellDemo.debug.xcconfig */,
+				397B61D37C3E10948535999F /* Pods-VideoPlayInCellDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30E54FE2215A438D003374D4 /* Build configuration list for PBXNativeTarget "VideoPlayInCellDemo" */;
 			buildPhases = (
+				D477F2328BD3C878CA7FEB6F /* [CP] Check Pods Manifest.lock */,
 				30E54FCC215A438D003374D4 /* Sources */,
 				30E54FCD215A438D003374D4 /* Frameworks */,
 				30E54FCE215A438D003374D4 /* Resources */,
+				0912662440E452E6F67D3B79 /* [CP] Embed Pods Frameworks */,
+				461CC1CDFBBC7DA96E13E05D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +217,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0912662440E452E6F67D3B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayInCellDemo/Pods-VideoPlayInCellDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayInCellDemo/Pods-VideoPlayInCellDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461CC1CDFBBC7DA96E13E05D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayInCellDemo/Pods-VideoPlayInCellDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D477F2328BD3C878CA7FEB6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayInCellDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30E54FCC215A438D003374D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E55008215A5821003374D4 /* GameSetting.swift in Sources */,
+				30E54FE8215A43BE003374D4 /* VideoPlayerCell.swift in Sources */,
+				30E54FE6215A439E003374D4 /* PlayerView.swift in Sources */,
+				30E55010215A5821003374D4 /* SyncLog.swift in Sources */,
+				30E5500B215A5821003374D4 /* QuestionCategory.swift in Sources */,
+				30E55011215A5821003374D4 /* Question.swift in Sources */,
+				30E5500C215A5821003374D4 /* ProfileUrl.swift in Sources */,
+				30E54FF7215A53D7003374D4 /* BaseModel.swift in Sources */,
+				30E54FF4215A51FB003374D4 /* SOService.swift in Sources */,
+				30E5500E215A5821003374D4 /* RequestParameter.swift in Sources */,
+				30E5500A215A5821003374D4 /* WheelOfFortune.swift in Sources */,
+				30E54FFB215A5405003374D4 /* ResponseData.swift in Sources */,
+				30E5500D215A5821003374D4 /* UserSetting.swift in Sources */,
 				30E54FD6215A438D003374D4 /* ViewController.swift in Sources */,
+				30E54FFD215A57C9003374D4 /* SyncData.swift in Sources */,
+				30E54FF9215A53F3003374D4 /* LoginData.swift in Sources */,
+				30E55009215A5821003374D4 /* StoryContent.swift in Sources */,
 				30E54FD4215A438D003374D4 /* AppDelegate.swift in Sources */,
+				30E54FF5215A51FB003374D4 /* SOAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +437,7 @@
 		};
 		30E54FE3215A438D003374D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF466C1BE0F9B9911ACCF1D5 /* Pods-VideoPlayInCellDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +452,7 @@
 		};
 		30E54FE4215A438D003374D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397B61D37C3E10948535999F /* Pods-VideoPlayInCellDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

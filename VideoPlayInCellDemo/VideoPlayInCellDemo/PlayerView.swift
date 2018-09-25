@@ -33,7 +33,7 @@ class PlayerView: UIView {
     }
     
     @objc func play(){
-        player?.seek(to: CMTime.zero)
+        player?.seek(to: kCMTimeZero)
         player?.play()
     }
     
